@@ -52,3 +52,11 @@ In the code below, you can see how we add the listener for the *facedetected* ev
       console.error(e);
   }
 );`
+
+##Comments
+
+This is just a small sample of what's possible with the Hosted Web Apps Platform and Cognitive Services APIs, but it's a great introduction to how Hosted Web Apps on Windows 10 allow you to target the full range of Windows 10 devices, including Internet of Things, to create compelling experiences with familiar with web technologies. Please check out our code and let us know what you think!
+
+- Camilo Riviere, Program Manager
+- Camilo Rivera, Program Manager
+- Bruno Diaz, Program Manager
