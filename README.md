@@ -18,4 +18,10 @@ There are multiple pieces at play here. First is what you see displayed behind t
 
 ![alt text](https://github.com/Criviere/HackGT16/blob/master/magic-mirror-architecture-diagram.png)
 
-Using the Hosted Web apps bridge, we turned our web app into a Universal Windows App, which not only gives us access to Windows Native APIs but can also run across Windows devices, such as the Raspberry Pi 3 in our case. All the HTML, CSS, and Javascript comes directly from the server, hence the term *hosted.*
+Using the [Hosted Web apps bridge](http://microsoftedge.github.io/WebAppsDocs/en-US/win10/HWA.htm), we turned our web app into a Universal Windows App, which not only gives us access to Windows Native APIs but can also run across Windows devices, such as the Raspberry Pi 3 in our case. All the HTML, CSS, and Javascript comes directly from the server, hence the term *hosted.*
+
+##Making it smart##
+
+The most important part of the app and the delightful experience for the user is the facial recognition capability, which personalizes the mirror's display based on the individual in front of it. In the past, this was complex technology out of the reach of most web apps, but, with APIs provided by [Microft's Cognitive Services](https://www.microsoft.com/cognitive-services/), we're able to build it into our mirror with minimal effort.
+
+Microsoft Mirror leverages Microsoft's Cognitive Services [Face API](https://www.microsoft.com/cognitive-services/en-us/face-api) to match the user's face to their profile. The user creates a profile by adding some personal info and taking a selfie, which is then sent to Cognitive Services to get a unique identifier (a *face_id*) which is then stored in Microsoft Mirror's database.
