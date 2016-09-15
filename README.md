@@ -38,4 +38,17 @@ Below you can see how our Node sends an image as an *octet-stream* to Microsoft 
 'body': req.body
 }, function(error, response, body) {
   //add the newly created face_id to the user document
-})`
+});`
+
+We were very conscious about not wasting resources (CPU cycles, bandwidth, etc). For example, we didn't want to send every frame to Cognitive Services API, since most frames don't have a person in them. To solve this, we used the *facedetected* event to send images to the Cognitive Services servers only when a face was detected. This event is available to the app since Hosted Web Apps can access WinRT APIs through Javascript.
+
+In the code below, you can see how we add the listener for the *facedetected* event once the stream is *complete*.
+
+`media.Capture.addVideoEffectAsync(effectDefinition, mediaStreamType).done(
+  function complete(result) {
+    result.desiredDetectionInterval = detectionInterval;
+    result.addEventListener('facedfacedetected', Authenticate.handleFaces);
+  }, function error(e) {
+      console.error(e);
+  }
+);`
