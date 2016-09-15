@@ -6,7 +6,7 @@ Our "Microsoft Mirror" is basically a one-way mirror (like you might have seen i
 
 We designed the Microsoft Mirror to be low-cost and simple, so anyone could build it in a couple of hours. We've also open-sourced the web app and shared our bill of materials and assembly instructions both of which you can find here.
 
-#Building the interface#
+##Building the interface##
 
 We designed the mirror user interface (UI) to be as functional as possible, as both a mirror and an info hub. There are some practical implications to this. The UI should be simple and easy to visually digest, so we kept adornment light and typography clear. The screen needs to be readable through the mirrored surface, so we used a high contrast ratio of pure white on pure black. Lastly and most importantly the user needs to see their reflection, so we kept the central area of the mirror clean when the user is logged in.
 
