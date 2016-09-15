@@ -25,3 +25,17 @@ Using the [Hosted Web apps bridge](http://microsoftedge.github.io/WebAppsDocs/en
 The most important part of the app and the delightful experience for the user is the facial recognition capability, which personalizes the mirror's display based on the individual in front of it. In the past, this was complex technology out of the reach of most web apps, but, with APIs provided by [Microft's Cognitive Services](https://www.microsoft.com/cognitive-services/), we're able to build it into our mirror with minimal effort.
 
 Microsoft Mirror leverages Microsoft's Cognitive Services [Face API](https://www.microsoft.com/cognitive-services/en-us/face-api) to match the user's face to their profile. The user creates a profile by adding some personal info and taking a selfie, which is then sent to Cognitive Services to get a unique identifier (a *face_id*) which is then stored in Microsoft Mirror's database.
+
+Once they've created a profile, the user can stand in front of the Microsoft Mirror, which will take a picture and request Cognitive Services for the user's *face_id*. This ID is then used to find the user's profile so the mirror can present the user with relevant info.
+
+Below you can see how our Node sends an image as an *octet-stream* to Microsoft Cognitive Services through their REST API. The Cognitive Services' cloud then sends back a *face_id*, which we to our user object.
+
+`request.post({
+'url': 'https://api.projectoxford.ai/face/v1.0/facelists/' + your_face_api_list + ' /persistedFaces',
+'headers': {
+'Content-Type': 'application/octet-stream,'Ocp-Apim-Subscription-Key': your_secret_key_here
+},
+'body': req.body
+}, function(error, response, body) {
+  //add the newly created face_id to the user document
+});`
