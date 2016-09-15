@@ -16,4 +16,4 @@ The mirror is built to be useful to a person getting ready in the morning. This 
 
 There are multiple pieces at play here. First is what you see displayed behind the mirror. This is a web app created in HTML, CSS, and JavaScript and served from a Node instance hosted on Azure.
 
-![alt text][https://github.com/Criviere/HackGT16/blob/master/magic-mirror-architecture-diagram.png]
+![alt text](https://github.com/Criviere/HackGT16/blob/master/magic-mirror-architecture-diagram.png)
