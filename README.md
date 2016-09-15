@@ -38,4 +38,4 @@ Below you can see how our Node sends an image as an *octet-stream* to Microsoft 
 'body': req.body
 }, function(error, response, body) {
   //add the newly created face_id to the user document
-});`
+})`
