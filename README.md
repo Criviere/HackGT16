@@ -1,10 +1,10 @@
-#Microsoft Mirror#
+#Buenos Dias#
 
-##"What's a Microsoft Mirror?"##
+##"What's Buenos Dias?"##
 
-Our "Microsoft Mirror" is basically a one-way mirror (like you might have seen in Hollywood depictions of interrogation rooms), made "smart" by a simple LED display which sits behind the mirror and displays white UI elements with a black background. When this display is on, you can see both your reflection and the white elements, allowing software to present relevant information while you get ready for your day.
+"Buenos Dias" is basically a two-way mirror (like you might have seen in Hollywood depictions of interrogation rooms), made "smart" by a simple LED display which sits behind the mirror and displays white UI elements with a black background. When this display is on, you can see both your reflection and the white elements, allowing software to present relevant information while you get ready for your day.
 
-We designed the Microsoft Mirror to be low-cost and simple, so anyone could build it in a couple of hours. We've also open-sourced the web app and shared our bill of materials and assembly instructions both of which you can find here.
+We designed Buenos Dias to be low-cost and simple, so anyone could build it in a couple of hours. We've also open-sourced the web app and shared our bill of materials and assembly instructions both of which you can find here.
 
 ##Building the interface##
 
@@ -24,9 +24,9 @@ Using the [Hosted Web apps bridge](http://microsoftedge.github.io/WebAppsDocs/en
 
 The most important part of the app and the delightful experience for the user is the facial recognition capability, which personalizes the mirror's display based on the individual in front of it. In the past, this was complex technology out of the reach of most web apps, but, with APIs provided by [Microft's Cognitive Services](https://www.microsoft.com/cognitive-services/), we're able to build it into our mirror with minimal effort.
 
-Microsoft Mirror leverages Microsoft's Cognitive Services [Face API](https://www.microsoft.com/cognitive-services/en-us/face-api) to match the user's face to their profile. The user creates a profile by adding some personal info and taking a selfie, which is then sent to Cognitive Services to get a unique identifier (a *face_id*) which is then stored in Microsoft Mirror's database.
+Buenos Dias leverages Microsoft's Cognitive Services [Face API](https://www.microsoft.com/cognitive-services/en-us/face-api) to match the user's face to their profile. The user creates a profile by adding some personal info and taking a selfie, which is then sent to Cognitive Services to get a unique identifier (a *face_id*) which is then stored in Buenos Dias's database.
 
-Once they've created a profile, the user can stand in front of the Microsoft Mirror, which will take a picture and request Cognitive Services for the user's *face_id*. This ID is then used to find the user's profile so the mirror can present the user with relevant info.
+Once they've created a profile, the user can stand in front of the Buenos Dias, which will take a picture and request Cognitive Services for the user's *face_id*. This ID is then used to find the user's profile so the mirror can present the user with relevant info.
 
 Below you can see how our Node sends an image as an *octet-stream* to Microsoft Cognitive Services through their REST API. The Cognitive Services' cloud then sends back a *face_id*, which we to our user object.
 
