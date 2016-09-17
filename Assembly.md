@@ -2,7 +2,7 @@
 The assembly process requires manual work so please make sure you take the appropriate safety measures.
 
 ##Building Materials
-You will need the following materials to assemble the Microsoft Mirror:
+You will need the following materials to assemble a Buenos Dias:
 
   - [2-Way Mirrored Acrylic Sheets](http://www.tapplastics.com/product/plastics/cut_to_size_plastic/two_way_mirrored_acrylic/558)
       - Thickness: 1/8"
