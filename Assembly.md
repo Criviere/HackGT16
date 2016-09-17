@@ -25,4 +25,4 @@ You will need the following materials to assemble the Microsoft Mirror:
 ##Step 1: Cabinet + 2-way mirror
 The frame of the medicine cabinet is held together by staples. You can use the screwdriver to take either side off. Please be careful not to shater the mirror. Once the staples are gone, you can remove the one-way mirror and replace it with the two-way mirror.
 
-![Here is a picture of the medicine cabinet with the mirror removed](1)
+![Here is a picture of the medicine cabinet with the mirror removed](https://github.com/Criviere/HackGT16/blob/master/images/5.jpg)
