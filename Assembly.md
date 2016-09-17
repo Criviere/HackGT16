@@ -27,6 +27,6 @@ The frame of the medicine cabinet is held together by staples. You can use the s
 
 ![Here is a picture of the medicine cabinet with the original mirror removed](https://github.com/Criviere/HackGT16/blob/master/images/5.jpg)
 
-##Step 2
+##Step 2: Debezel The Monitor
 The monitor will need to be debezeled. To do this you will need a screw driver to pop the shell off. Be careful to not scratch or break the monitor screen when attempting to remove the shell.
 ![Here is a picture of the monitor shell removed](https://github.com/Criviere/HackGT16/blob/master/images/1.jpg)
