@@ -60,3 +60,4 @@ This is just a small sample of what's possible with the Hosted Web Apps Platform
 - Camilo Riviere, Program Manager
 - Camilo Rivera, Program Manager
 - Bruno Diaz, Program Manager
+- Gabriel de Diego, Program Manager
