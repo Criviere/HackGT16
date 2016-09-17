@@ -25,4 +25,8 @@ You will need the following materials to assemble the Microsoft Mirror:
 ##Step 1: Cabinet + 2-way mirror
 The frame of the medicine cabinet is held together by staples. You can use the screwdriver to take either side off. Please be careful not to shater the mirror. Once the staples are gone, you can remove the one-way mirror and replace it with the two-way mirror.
 
-![Here is a picture of the medicine cabinet with the mirror removed](https://github.com/Criviere/HackGT16/blob/master/images/5.jpg)
+![Here is a picture of the medicine cabinet with the original mirror removed](https://github.com/Criviere/HackGT16/blob/master/images/5.jpg)
+
+##Step 2
+The monitor will need to be debezeled. To do this you will need a screw driver to pop the shell off. Be careful to not scratch or break the monitor screen when attempting to remove the shell.
+![Here is a picture of the monitor shell removed](https://github.com/Criviere/HackGT16/blob/master/images/1.jpg)
