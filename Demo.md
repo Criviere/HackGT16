@@ -1,7 +1,5 @@
 #Demonstration Script
 
-##What is the message that we want to convey?
+##Introduction
 
-Camilo 1 - "This is "God's Mirror" if God owned a mirror it would be this one."
-
-Camilo 2 - "With Facial Recognition, Voice Control, and a Beautiful User Interface. There is no doubt that this is definitely God's Mirror of choice."
+Camilo 1 - `Hi [Insert Company Name] my name is Camilo Riviere and I'm a Senior at Florida International University majoring in Computer Science and minoring in Digital Marketing. My main passion is eCommerce where I have over 10 years of experience in developing, maintaining, and operating privately hosted eCommerce websites and their respective Online Marketing Campaigns.`
